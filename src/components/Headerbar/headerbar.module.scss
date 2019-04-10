@@ -1,0 +1,38 @@
+header{
+    height: .45rem;
+    background: #fff;
+    overflow: hidden;
+    a{
+        display: flex;
+        align-items: center;
+        height: .35rem;
+        margin: .05rem .2rem .05rem .2rem;
+        div{
+            height: .35rem;
+            background: #f5f5f5;
+            width: 100%;
+            line-height: .35rem;
+            text-align: center;
+            border-radius: .3rem;
+            img{
+                display: inline-block;
+                vertical-align: middle;
+                height: .2rem;
+                width: .2rem;
+            }   
+            span.index_search_title{
+                vertical-align: middle;
+            }
+        }
+        span.search_list{
+            height: .30rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: .1rem;
+            img{
+                height: .20rem;
+            }
+        }
+    }
+}
