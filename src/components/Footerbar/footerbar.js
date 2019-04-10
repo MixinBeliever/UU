@@ -2,9 +2,9 @@ import React from 'react';
 import { NavLink, } from 'react-router-dom'
 
 import style from './footerbar.module.scss'
-class Footerbar extends React.Component{
-    render(){
-        return(
+class Footerbar extends React.Component {
+    render() {
+        return (
             <footer>
                 <ul>
                     <li><NavLink to="/home" activeClassName={style.active}><span class="iconfont icon-shouye"></span>首页</NavLink></li>
